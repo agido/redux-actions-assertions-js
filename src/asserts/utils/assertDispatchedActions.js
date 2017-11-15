@@ -1,4 +1,4 @@
-import isEqual from 'lodash.isEqual';
+import isEqual from 'lodash.isequal';
 import {notDispatchedActionError} from '../errors/notDispatchedActionError';
 
 function assertDispatchedActions(dispatched, expected) {
